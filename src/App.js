@@ -17,7 +17,7 @@ const picturesData = [
 
 const App = () => {
   const [web3, setWeb3] = useState(null);
-  const [accounts, setAccounts] = useState([]);
+ // const [accounts, setAccounts] = useState([]);
   const [pictureStore, setPictureStore] = useState(null);
   const [cart, setCart] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
@@ -173,10 +173,10 @@ const App = () => {
         alert(`Payment successful! Total Amount: Ξ${totalPrice}`);
   
         // Remove the purchased picture from the cart
-        const updatedCart = cart.filter((cartItem) => cartItem.id !== pictureId);
+     //   const updatedCart = cart.filter((cartItem) => cartItem.id !== pictureId);
   
         // Update the total price based on the prices of pictures in the cart
-        const updatedTotalPrice = updatedCart.reduce((total, cartItem) => total + cartItem.price, 0);
+     //   const updatedTotalPrice = updatedCart.reduce((total, cartItem) => total + cartItem.price, 0);
         const updatedPictures = picturesData.filter(picture => !cart.includes(picture));
     
         picturesData.splice(0, picturesData.length, ...updatedPictures);
