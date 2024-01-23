@@ -1,6 +1,6 @@
 {
-  "homepage": "https://umerpatvegar.github.io/metamask-connect",
-  "name": "test-app",
+  "homepage": "https://umerpatvegar.github.io/cart-metamask-connect",
+  "name": "test-wallet-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
