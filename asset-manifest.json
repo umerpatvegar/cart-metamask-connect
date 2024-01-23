@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cart-metamask-connect/static/css/main.d856e747.css",
+    "main.js": "/cart-metamask-connect/static/js/main.863ffdbe.js",
+    "static/js/787.9ef80d2d.chunk.js": "/cart-metamask-connect/static/js/787.9ef80d2d.chunk.js",
+    "static/media/4.jpg": "/cart-metamask-connect/static/media/4.b7f616720c272fc20ca2.jpg",
+    "index.html": "/cart-metamask-connect/index.html",
+    "main.d856e747.css.map": "/cart-metamask-connect/static/css/main.d856e747.css.map",
+    "main.863ffdbe.js.map": "/cart-metamask-connect/static/js/main.863ffdbe.js.map",
+    "787.9ef80d2d.chunk.js.map": "/cart-metamask-connect/static/js/787.9ef80d2d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d856e747.css",
+    "static/js/main.863ffdbe.js"
+  ]
+}
